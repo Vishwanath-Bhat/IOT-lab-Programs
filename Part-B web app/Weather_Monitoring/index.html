@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather Monitoring</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Weather Monitoring Dashboard</h1>
+    <div class="sensor-data">
+      <p>Temperature: <span id="temperature">--</span> °C</p>
+      <p>Humidity: <span id="humidity">--</span> %</p>
+      <p>Heat Index: <span id="heatIndex">--</span> °C</p>
+    </div>
+  </div>
+
+  <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-database.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
